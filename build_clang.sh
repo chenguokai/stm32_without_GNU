@@ -1,0 +1,1 @@
+cmake -G 'Unix Makefiles' -DCMAKE_INSTALL_PREFIX=/Users/cgk/Documents/clang_playground/toolchain -DCMAKE_BUILD_TYPE=Release -DLLVM_ENABLE_PROJECTS="clang;clang-tools-extra;lld;lldb" -DLLDB_INCLUDE_TESTS=OFF ..
